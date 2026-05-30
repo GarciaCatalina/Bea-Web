@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacto oficial de beabadoobee — prensa, booking y consultas generales." />
+  <title>beabadoobee — Contacto</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌹</text></svg>" />
+</head>
+<body>
+
+<!-- ── NAV ───────────────────────────────── -->
+<nav class="site-nav" role="navigation" aria-label="Menú principal">
+  <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+  <ul class="nav-links">
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+    <li class="merch-nav-item">
+      <button class="merch-toggle" aria-haspopup="true">Merch <span class="arrow">▼</span></button>
+      <div class="merch-dropdown" role="menu">
+        <a href="merch.html#remeras">Remeras</a>
+        <a href="merch.html#abrigos">Abrigos</a>
+        <a href="merch.html#accesorios">Accesorios</a>
+        <a href="merch.html#vinilos">Vinilos</a>
+      </div>
+    </li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menú móvil" hidden>
+  <ul>
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+    <li>
+      <button class="mobile-merch-toggle">Merch ▼</button>
+      <div class="mobile-merch-sub">
+        <a href="merch.html">Todo el Merch</a>
+        <a href="merch.html#remeras">Remeras</a>
+        <a href="merch.html#abrigos">Abrigos</a>
+        <a href="merch.html#accesorios">Accesorios</a>
+        <a href="merch.html#vinilos">Vinilos</a>
+      </div>
+    </li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</div>
+
+<!-- ── PAGE HERO ─────────────────────────── -->
+<div class="page-hero">
+  <p class="page-hero-eyebrow">// hablemos</p>
+  <h1 class="page-hero-title">con<span>tacto</span></h1>
+  <p class="page-hero-sub">prensa · booking · consultas ✦</p>
+</div>
+
+<!-- ── CONTACTO ──────────────────────────── -->
+<section class="contact-page">
+  <div class="contact-wrap">
+
+    <!-- Info + redes -->
+    <aside class="contact-info">
+      <p class="section-label">// info</p>
+      <h2 class="section-title">escribinos</h2>
+
+      <div class="contact-info-block">
+        <h3>Prensa</h3>
+        <a href="mailto:press@beabadoobee.com">press@beabadoobee.com</a>
+      </div>
+
+      <div class="contact-info-block">
+        <h3>Booking</h3>
+        <a href="mailto:booking@beabadoobee.com">booking@beabadoobee.com</a>
+      </div>
+
+      <div class="contact-info-block">
+        <h3>Management</h3>
+        <p>Dirty Hit Management<br/>London, United Kingdom</p>
+      </div>
+
+      <div class="contact-info-block">
+        <h3>Redes sociales</h3>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/beabadoobee/" target="_blank" rel="noopener" class="contact-social-link">
+            <span class="social-icon">◈</span> Instagram
+          </a>
+          <a href="https://twitter.com/beabadoobee" target="_blank" rel="noopener" class="contact-social-link">
+            <span class="social-icon">◈</span> X / Twitter
+          </a>
+          <a href="https://www.tiktok.com/@beabadoobee" target="_blank" rel="noopener" class="contact-social-link">
+            <span class="social-icon">◈</span> TikTok
+          </a>
+          <a href="https://open.spotify.com/artist/27NovPIUIRrOZoCHxABJwK" target="_blank" rel="noopener" class="contact-social-link">
+            <span class="social-icon">◈</span> Spotify
+          </a>
+          <a href="https://www.youtube.com/@beabadoobee" target="_blank" rel="noopener" class="contact-social-link">
+            <span class="social-icon">◈</span> YouTube
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Formulario -->
+    <div class="contact-form-wrap">
+      <p class="section-label">// formulario</p>
+      <h2 class="section-title">mandanos un mensaje</h2>
+
+      <form class="contact-form" id="contact-form" novalidate>
+  
+  <div class="form-group-hp" style="display:none !important;" aria-hidden="true">
+    <input type="text" name="b_username" tabindex="-1" value="" autocomplete="off" />
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" required maxlength="60" placeholder="tu nombre..." autocomplete="name" />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" required maxlength="100" placeholder="tu@email.com..." autocomplete="email" />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Asunto</label>
+    <select id="subject" required>
+      <option value="" disabled selected>Selecciona una opción...</option>
+      <option value="press">Prensa / Medios</option>
+      <option value="booking">Booking / Conciertos</option>
+      <option value="store">Tienda de Merch / Soporte</option>
+      <option value="fans">Mensaje de Fans 🌹</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Mensaje</label>
+    <textarea id="message" required maxlength="1500" placeholder="escribe aquí tu mensaje..."></textarea>
+  </div>
+
+  <div class="form-feedback" id="form-feedback" aria-live="polite"></div>
+
+  <div class="form-submit">
+    <button type="submit" class="btn btn-primary" id="submit-btn">Enviar Mensaje</button>
+  </div>
+</form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+      <p>Sitio oficial de beabadoobee. Música, tours, merch y más. Hecho con amor y un poco de caos.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/beabadoobee/" target="_blank" rel="noopener">IG</a>
+        <a href="https://twitter.com/beabadoobee" target="_blank" rel="noopener">X</a>
+        <a href="https://www.tiktok.com/@beabadoobee" target="_blank" rel="noopener">TK</a>
+        <a href="https://open.spotify.com/artist/27NovPIUIRrOZoCHxABJwK" target="_blank" rel="noopener">SP</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Navegar</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <ul>
+        <li><a href="mailto:press@beabadoobee.com">Prensa</a></li>
+        <li><a href="mailto:booking@beabadoobee.com">Booking</a></li>
+        <li><a href="contacto.html">Formulario</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 beabadoobee. All rights reserved.</span>
+    <span>made with ✦ &amp; static noise</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

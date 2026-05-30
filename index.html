@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio oficial de beabadoobee — música, tours, merch y más." />
+  <title>beabadoobee — official site</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌹</text></svg>" />
+</head>
+<body>
+
+<!-- ── NAV ───────────────────────────────── -->
+<nav class="site-nav" role="navigation" aria-label="Menú principal">
+  <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+  <ul class="nav-links">
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+<li class="merch-nav-item">
+  <a href="merch.html" class="merch-toggle" aria-haspopup="true">Merch <span class="arrow">▼</span></a>
+  <div class="merch-dropdown" role="menu">
+    <a href="merch.html#remeras">Remeras</a>
+    <a href="merch.html#abrigos">Abrigos</a>
+    <a href="merch.html#accesorios">Accesorios</a>
+    <a href="merch.html#vinilos">Vinilos</a>
+  </div>
+</li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" hidden id="mobile-menu">
+  <ul>
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+    <li>
+      <a href="merch.html" class="mobile-merch-toggle">Merch</a>
+      <div class="mobile-merch-sub">
+        <a href="merch.html">Todo el Merch</a>
+        <a href="merch.html#remeras">Remeras</a>
+        <a href="merch.html#abrigos">Abrigos</a>
+        <a href="merch.html#accesorios">Accesorios</a>
+        <a href="merch.html#vinilos">Vinilos</a>
+      </div>
+    </li>
+    <li><a href="galeria.html">Gallery</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</div>
+
+<!-- ── HERO ──────────────────────────────── -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <div class="hero-text">
+    <p class="hero-eyebrow">— official site —</p>
+    <h1 class="hero-title" id="hero-title">
+      bea<span class="accent">badoo</span>bee
+    </h1>
+    <p class="hero-subtitle">indie lo-fi ✦ dream pop ✦ bedroom rock</p>
+    <a href="discografia.html" class="hero-cta">Escuchar ahora →</a>
+  </div>
+
+  <div class="hero-image-side">
+    <img
+      src="https://i.pinimg.com/736x/18/e8/94/18e8943f96d943168985cb6389719bcf.jpg"
+      alt="beabadoobee"
+      loading="eager"
+      onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=900&q=80';"
+    />
+    <div class="tape tape-h tape-1" aria-hidden="true"></div>
+    <div class="tape tape-h tape-2" aria-hidden="true"></div>
+  </div>
+
+  <span class="hero-sticker sticker-1" aria-hidden="true">loveworm ✦</span>
+  <span class="hero-sticker sticker-2" aria-hidden="true">new tour 2025</span>
+  <span class="hero-sticker sticker-3" aria-hidden="true">★ listen now</span>
+</section>
+
+<!-- ── MARQUEE ────────────────────────────── -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span>faker than a falsie</span><span class="dot">✦</span>
+    <span>loveworm</span><span class="dot">✦</span>
+    <span>beatopia</span><span class="dot">✦</span>
+    <span>death bed (coffee for your head)</span><span class="dot">✦</span>
+    <span>talk</span><span class="dot">✦</span>
+    <span>glue song</span><span class="dot">✦</span>
+    <span>ripple</span><span class="dot">✦</span>
+    <span>faker than a falsie</span><span class="dot">✦</span>
+    <span>loveworm</span><span class="dot">✦</span>
+    <span>beatopia</span><span class="dot">✦</span>
+    <span>death bed (coffee for your head)</span><span class="dot">✦</span>
+    <span>talk</span><span class="dot">✦</span>
+    <span>glue song</span><span class="dot">✦</span>
+    <span>ripple</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- ── ABOUT PREVIEW ─────────────────────── -->
+<section class="about" id="sobre" aria-labelledby="about-title">
+  <div class="about-grid">
+    <div class="about-img-wrap">
+      <img
+        src="https://i.pinimg.com/1200x/72/44/1c/72441cd2510d9739b114c36bc61c6f2d.jpg"
+        alt="Retrato de beabadoobee"
+        loading="lazy"
+        onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600&q=80';"
+      />
+    </div>
+    <div class="about-text">
+      <p class="section-label">// sobre la artista</p>
+      <h2 class="section-title" id="about-title">quién es bea</h2>
+      <p>Beatrice Laus, conocida en el mundo musical como <strong>beabadoobee</strong>, nació el 3 de junio de 2000 en Manila, Filipinas, y creció en el oeste de Londres. Su camino en la música comenzó casi por accidente: a los 17 años aprendió a tocar guitarra sola y subió su primera canción a SoundCloud como un ejercicio personal. Ese gesto íntimo y sin pretensiones se viralizó de manera inesperada, revelando una voz generacional que capturaba la melancolía y la quietud de la adolescencia con una honestidad difícil de fabricar.</p>
+      <p>Su sonido es una mezcla inconfundible de indie rock de los 90, dream pop y bedroom pop: guitarras eléctricas levemente distorsionadas, melodías etéreas y letras que oscilan entre lo cotidiano y lo profundamente íntimo. Influenciada por artistas como Mazzy Star, Pavement y Liz Phair, Bea construyó un universo propio que se niega a encajar en una sola etiqueta.</p>
+      <p>Desde su debut con el EP <em>Patched Up</em> (2018) hasta álbumes como <em>Fake It Flowers</em> (2020), <em>Beatopia</em> (2022) y <em>This Is How Tomorrow Moves</em> (2024), beabadoobee demostró una evolución constante sin perder la esencia que la hizo especial.</p>
+      <a href="biografia.html" class="about-link">Leer biografía completa →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── RELEASE TEASER ────────────────────── -->
+<section class="release-teaser" aria-labelledby="release-title">
+  <p class="section-label">// último lanzamiento</p>
+  <h2 class="section-title" id="release-title">this is how<br/>tomorrow moves</h2>
+  <p class="album-info">álbum · 2024 · Dirty Hit</p>
+  <div class="release-actions">
+    <a href="discografia.html" class="btn-primary">Ver discografía</a>
+    <a href="https://open.spotify.com/artist/27NovPIUIRrOZoCHxABJwK" target="_blank" rel="noopener" class="btn-outline">Escuchar en Spotify ↗</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+      <p>Sitio oficial de beabadoobee. Música, tours, merch y más. Hecho con amor y un poco de caos.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/beabadoobee/" target="_blank" rel="noopener">IG</a>
+        <a href="https://twitter.com/beabadoobee" target="_blank" rel="noopener">X</a>
+        <a href="https://www.tiktok.com/@beabadoobee" target="_blank" rel="noopener">TK</a>
+        <a href="https://open.spotify.com/artist/27NovPIUIRrOZoCHxABJwK" target="_blank" rel="noopener">SP</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Navegar</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <ul>
+        <li><a href="mailto:press@beabadoobee.com">Prensa</a></li>
+        <li><a href="mailto:booking@beabadoobee.com">Booking</a></li>
+        <li><a href="contacto.html">Formulario</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 beabadoobee. All rights reserved.</span>
+    <span>made with ✦ &amp; static noise</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Merch oficial de beabadoobee — remeras, abrigos, accesorios y vinilos." />
+  <title>beabadoobee — Merch</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌹</text></svg>" />
+</head>
+<body>
+
+<!-- ── NAV ───────────────────────────────── -->
+<nav class="site-nav" role="navigation" aria-label="Menú principal">
+  <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+  <ul class="nav-links">
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+<li class="merch-nav-item">
+  <a href="merch.html" class="merch-toggle" aria-haspopup="true">Merch <span class="arrow">▼</span></a>
+  <div class="merch-dropdown" role="menu">
+    <a href="merch.html#remeras">Remeras</a>
+    <a href="merch.html#abrigos">Abrigos</a>
+    <a href="merch.html#accesorios">Accesorios</a>
+    <a href="merch.html#vinilos">Vinilos</a>
+  </div>
+</li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" hidden id="mobile-menu">
+  <ul>
+    <li><a href="biografia.html">Biografía</a></li>
+    <li><a href="discografia.html">Discografía</a></li>
+    <li>
+      <a href="merch.html" class="mobile-merch-toggle">Merch</a>
+      <div class="mobile-merch-sub">
+        <a href="merch.html">Todo el Merch</a>
+        <a href="merch.html#remeras">Remeras</a>
+        <a href="merch.html#abrigos">Abrigos</a>
+        <a href="merch.html#accesorios">Accesorios</a>
+        <a href="merch.html#vinilos">Vinilos</a>
+      </div>
+    </li>
+    <li><a href="galeria.html">Gallery</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</div>
+
+<!-- ── PAGE HERO ─────────────────────────── -->
+<div class="page-hero">
+  <p class="page-hero-eyebrow">// tienda oficial</p>
+  <h1 class="page-hero-title">merch</h1>
+  <p class="page-hero-sub">productos oficiales ✦ envío mundial</p>
+</div>
+
+<!-- ── MERCH GRID ────────────────────────── -->
+<section class="merch-page">
+  <p class="section-label">// filtrar por categoría</p>
+  <h2 class="section-title">todos los productos</h2>
+
+  <div class="merch-filters" role="group" aria-label="Filtrar productos">
+    <button class="merch-filter-btn active" data-cat="all">Todo</button>
+    <button class="merch-filter-btn" data-cat="remera">Remeras</button>
+    <button class="merch-filter-btn" data-cat="abrigo">Abrigos</button>
+    <button class="merch-filter-btn" data-cat="accesorio">Accesorios</button>
+    <button class="merch-filter-btn" data-cat="vinilo">Vinilos</button>
+  </div>
+
+  <h3 class="merch-section-heading" id="remeras">// remeras</h3>
+  <div class="merch-grid">
+    <div class="merch-card" data-cat="remera">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/fa/c9/5b/fac95bf1ad1216c11c66a761d8c6e576.jpg" alt="Remera Beatopia" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// remera</span>
+        <p class="merch-name">Beatopia Tee — Black</p>
+        <p class="merch-price">USD 35.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="remera">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/fa/c9/5b/fac95bf1ad1216c11c66a761d8c6e576.jpg" alt="Remera Fake It Flowers" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// remera</span>
+        <p class="merch-name">Fake It Flowers Tee — White</p>
+        <p class="merch-price">USD 35.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="remera">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/fa/c9/5b/fac95bf1ad1216c11c66a761d8c6e576.jpg" alt="Remera Tomorrow Moves" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// remera</span>
+        <p class="merch-name">Tomorrow Moves Tee — Cream</p>
+        <p class="merch-price">USD 38.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="remera">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/fa/c9/5b/fac95bf1ad1216c11c66a761d8c6e576.jpg" alt="Remera Tour 2025" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// remera</span>
+        <p class="merch-name">Tour 2025 Tee — Red</p>
+        <p class="merch-price">USD 40.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="merch-section-heading" id="abrigos">// abrigos</h3>
+  <div class="merch-grid">
+    <div class="merch-card" data-cat="abrigo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/79/af/e8/79afe880b60d456a18e5e623243cf931.jpg" alt="Hoodie Beatopia" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// abrigo</span>
+        <p class="merch-name">Beatopia Hoodie — Black</p>
+        <p class="merch-price">USD 65.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="abrigo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/79/af/e8/79afe880b60d456a18e5e623243cf931.jpg" alt="Crewneck Tomorrow Moves" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// abrigo</span>
+        <p class="merch-name">Tomorrow Moves Crewneck</p>
+        <p class="merch-price">USD 60.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="abrigo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/79/af/e8/79afe880b60d456a18e5e623243cf931.jpg" alt="Chaqueta Tour" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// abrigo</span>
+        <p class="merch-name">Tour Jacket — Cream</p>
+        <p class="merch-price">USD 85.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="merch-section-heading" id="accesorios">// accesorios</h3>
+  <div class="merch-grid">
+    <div class="merch-card" data-cat="accesorio">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/96/3b/e9/963be92ab27217b66011e33f9f02c26f.jpg" alt="Bolsa Tote Beatopia" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// accesorio</span>
+        <p class="merch-name">Beatopia Tote Bag</p>
+        <p class="merch-price">USD 20.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="accesorio">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/96/3b/e9/963be92ab27217b66011e33f9f02c26f.jpg" alt="Pines coleccionables" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// accesorio</span>
+        <p class="merch-name">Pin Set — Collector's Edition</p>
+        <p class="merch-price">USD 15.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="accesorio">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/96/3b/e9/963be92ab27217b66011e33f9f02c26f.jpg" alt="Gorra beabadoobee" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// accesorio</span>
+        <p class="merch-name">Dad Cap — Black</p>
+        <p class="merch-price">USD 28.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="accesorio">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/736x/96/3b/e9/963be92ab27217b66011e33f9f02c26f.jpg" alt="Poster Tour 2025" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// accesorio</span>
+        <p class="merch-name">Tour Poster 2025 — A2</p>
+        <p class="merch-price">USD 18.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="merch-section-heading" id="vinilos">// vinilos</h3>
+  <div class="merch-grid">
+    <div class="merch-card" data-cat="vinilo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/1200x/53/74/96/537496937f80fa0feaf995095d88f1cd.jpg" alt="Vinilo This Is How Tomorrow Moves" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// vinilo</span>
+        <p class="merch-name">This Is How Tomorrow Moves — LP</p>
+        <p class="merch-price">USD 30.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="vinilo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/1200x/53/74/96/537496937f80fa0feaf995095d88f1cd.jpg" alt="Vinilo Beatopia" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// vinilo</span>
+        <p class="merch-name">Beatopia — LP Deluxe</p>
+        <p class="merch-price">USD 32.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+    <div class="merch-card" data-cat="vinilo">
+      <div class="merch-img-wrap">
+        <img src="https://i.pinimg.com/1200x/53/74/96/537496937f80fa0feaf995095d88f1cd.jpg" alt="Vinilo Fake It Flowers" loading="lazy" />
+      </div>
+      <div class="merch-card-body">
+        <span class="merch-cat-tag">// vinilo</span>
+        <p class="merch-name">Fake It Flowers — LP</p>
+        <p class="merch-price">USD 28.00</p>
+        <a href="https://store.beabadoobee.com" target="_blank" rel="noopener" class="merch-buy">Comprar ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">bea<span>badoo</span>bee</a>
+      <p>Sitio oficial de beabadoobee. Música, tours, merch y más. Hecho con amor y un poco de caos.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/beabadoobee/" target="_blank" rel="noopener">IG</a>
+        <a href="https://twitter.com/beabadoobee" target="_blank" rel="noopener">X</a>
+        <a href="https://www.tiktok.com/@beabadoobee" target="_blank" rel="noopener">TK</a>
+        <a href="https://open.spotify.com/artist/27NovPIUIRrOZoCHxABJwK" target="_blank" rel="noopener">SP</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Navegar</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <ul>
+        <li><a href="mailto:press@beabadoobee.com">Prensa</a></li>
+        <li><a href="mailto:booking@beabadoobee.com">Booking</a></li>
+        <li><a href="contacto.html">Formulario</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 beabadoobee. All rights reserved.</span>
+    <span>made with ✦ &amp; static noise</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
