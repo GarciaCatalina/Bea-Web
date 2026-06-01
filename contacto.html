@@ -19,6 +19,7 @@
     <li class="merch-nav-item">
       <button class="merch-toggle" aria-haspopup="true">Merch <span class="arrow">▼</span></button>
       <div class="merch-dropdown" role="menu">
+        <a href="merch.html">Todo el Merch</a>
         <a href="merch.html#remeras">Remeras</a>
         <a href="merch.html#abrigos">Abrigos</a>
         <a href="merch.html#accesorios">Accesorios</a>
@@ -65,22 +66,26 @@
 
     <!-- Info + redes -->
     <aside class="contact-info">
-      <p class="section-label">// info</p>
-      <h2 class="section-title">escribinos</h2>
-
-      <div class="contact-info-block">
-        <h3>Prensa</h3>
-        <a href="mailto:press@beabadoobee.com">press@beabadoobee.com</a>
+      <div class="contact-title">
+        <p class="section-label">// info</p>
+        <h2 class="section-title">escribinos</h2>
       </div>
 
-      <div class="contact-info-block">
-        <h3>Booking</h3>
-        <a href="mailto:booking@beabadoobee.com">booking@beabadoobee.com</a>
-      </div>
-
-      <div class="contact-info-block">
-        <h3>Management</h3>
-        <p>Dirty Hit Management<br/>London, United Kingdom</p>
+      <div class="juntitos">
+        <div class="contact-info-block">
+          <h3>Prensa</h3>
+          <a href="mailto:press@beabadoobee.com">press@beabadoobee.com</a>
+        </div>
+  
+        <div class="contact-info-block">
+          <h3>Booking</h3>
+          <a href="mailto:booking@beabadoobee.com">booking@beabadoobee.com</a>
+        </div>
+  
+        <div class="contact-info-block">
+          <h3>Management</h3>
+          <p>Dirty Hit Management<br/>London, United Kingdom</p>
+        </div>
       </div>
 
       <div class="contact-info-block">
@@ -106,50 +111,54 @@
     </aside>
 
     <!-- Formulario -->
-    <div class="contact-form-wrap">
-      <p class="section-label">// formulario</p>
-      <h2 class="section-title">mandanos un mensaje</h2>
-
-      <form class="contact-form" id="contact-form" novalidate>
-  
-  <div class="form-group-hp" style="display:none !important;" aria-hidden="true">
-    <input type="text" name="b_username" tabindex="-1" value="" autocomplete="off" />
-  </div>
-
-  <div class="form-row">
-    <div class="form-group">
-      <label for="name">Nombre</label>
-      <input type="text" id="name" required maxlength="60" placeholder="tu nombre..." autocomplete="name" />
-    </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" required maxlength="100" placeholder="tu@email.com..." autocomplete="email" />
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="subject">Asunto</label>
-    <select id="subject" required>
-      <option value="" disabled selected>Selecciona una opción...</option>
-      <option value="press">Prensa / Medios</option>
-      <option value="booking">Booking / Conciertos</option>
-      <option value="store">Tienda de Merch / Soporte</option>
-      <option value="fans">Mensaje de Fans 🌹</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="message">Mensaje</label>
-    <textarea id="message" required maxlength="1500" placeholder="escribe aquí tu mensaje..."></textarea>
-  </div>
-
-  <div class="form-feedback" id="form-feedback" aria-live="polite"></div>
-
-  <div class="form-submit">
-    <button type="submit" class="btn btn-primary" id="submit-btn">Enviar Mensaje</button>
-  </div>
-</form>
-    </div>
+     <div class="formulariox">
+       <div class="contact-form-wrap">
+         <div class="titulito">
+           <p class="section-label">// formulario</p>
+           <h2 class="section-title">mandanos un mensaje</h2>
+         </div>
+   
+         <form class="contact-form" id="contact-form" novalidate>
+     
+     <div class="form-group-hp" style="display:none !important;" aria-hidden="true">
+       <input type="text" name="b_username" tabindex="-1" value="" autocomplete="off" />
+     </div>
+   
+     <div class="form-row">
+       <div class="form-group">
+         <label for="name">Nombre</label>
+         <input type="text" id="name" required maxlength="60" placeholder="tu nombre..." autocomplete="name" />
+       </div>
+       <div class="form-group">
+         <label for="email">Email</label>
+         <input type="email" id="email" required maxlength="100" placeholder="tu@email.com..." autocomplete="email" />
+       </div>
+     </div>
+   
+     <div class="form-group">
+       <label for="subject">Asunto</label>
+       <select id="subject" required>
+         <option value="" disabled selected>Selecciona una opción...</option>
+         <option value="press">Prensa / Medios</option>
+         <option value="booking">Booking / Conciertos</option>
+         <option value="store">Tienda de Merch / Soporte</option>
+         <option value="fans">Mensaje de Fans 🌹</option>
+       </select>
+     </div>
+   
+     <div class="form-group">
+       <label for="message">Mensaje</label>
+       <textarea id="message" required maxlength="1500" placeholder="escribe aquí tu mensaje..."></textarea>
+     </div>
+   
+     <div class="form-feedback" id="form-feedback" aria-live="polite"></div>
+   
+     <div class="form-submit">
+       <button type="submit" class="btn btn-primary" id="submit-btn">Enviar Mensaje</button>
+     </div>
+   </form>
+       </div>
+     </div>
 
   </div>
 </section>

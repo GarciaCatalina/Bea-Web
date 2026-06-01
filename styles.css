@@ -1,11 +1,7 @@
-/* ============================================
-   beabadoobee — styles.css
-   Layout: Flexbox | Estética: trash / indie
-   ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Bebas+Neue&family=Caveat:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* ── Variables ─────────────────────────────── */
+/* variable*/
 :root {
   --cream:      #e8e0d0;
   --cream-dark: #cfc4b0;
@@ -22,12 +18,16 @@
   --font-mono:    'Space Mono', monospace;
 }
 
-/* ── Reset ──────────────────────────────────── */
+/*reset*/
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html  { scroll-behavior: smooth; }
 img   { display: block; max-width: 100%; }
 a     { color: inherit; text-decoration: none; }
 ul    { list-style: none; }
+
+#message{
+  resize: none;
+}
 
 body {
   background-color: var(--cream);
@@ -39,7 +39,6 @@ body {
   cursor: crosshair;
 }
 
-/* Grain overlay */
 body::before {
   content: '';
   position: fixed;
@@ -50,9 +49,6 @@ body::before {
   z-index: 9999;
 }
 
-/* ════════════════════════════════════════════
-   NAV
-════════════════════════════════════════════ */
 .site-nav {
   position: sticky;
   top: 0;
@@ -85,14 +81,12 @@ body::before {
   top: 6px;
   right: -14px;
 }
-
 .nav-links {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 2rem;
 }
-
 .nav-links > li { position: relative; }
 
 .nav-links a,
@@ -128,7 +122,6 @@ body::before {
 .nav-links a:hover::after,
 .merch-toggle:hover::after { width: 100%; }
 
-/* Flecha del dropdown merch */
 .merch-toggle .arrow {
   display: inline-block;
   margin-left: 4px;
@@ -138,7 +131,6 @@ body::before {
 }
 .merch-toggle.open .arrow { transform: rotate(180deg); }
 
-/* Dropdown merch desktop — REPARADO */
 .merch-dropdown {
   display: none;
   position: absolute;
@@ -1426,6 +1418,18 @@ media queries
     gap: 2rem;
     text-align: center;
   }
+  .juntitos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .contact-title{
+    border-bottom: none;
+  }
   .contact-info-cards {
     width: 100%;
     justify-content: center;
@@ -1435,6 +1439,42 @@ media queries
   .footer-inner { flex-wrap: wrap; }
   .footer-brand { flex: 0 0 100%; }
   .footer-col { flex: 1 1 140px; }
+.contact-socials{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact-socials a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulariox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-form-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-title::after{
+    background: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1545,10 +1585,19 @@ media queries
     width: 100%;
     max-width: 550px;       /* Limitador para mantener proporciones estéticas indie */
     margin: 0 auto;         /* Centra el bloque de texto */
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+    display: flex;
     gap: 1.5rem;
     text-align: center;     /* Centra los textos internos para mejorar lecturas móviles */
+  }
+
+  .juntitos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: start;
+    width: 110%;
+    flex-wrap: wrap;
   }
 
   .contact-info-block {
