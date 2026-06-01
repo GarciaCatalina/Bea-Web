@@ -1399,8 +1399,11 @@ media queries
 
 @media (max-width: 1024px) {
   .album-block,
-  .album-block:nth-child(even) { flex-direction: column; }
+  .album-block:nth-child(even) { flex-direction: column; justify-content: center; align-items: center; }
   .album-cover-wrap { flex: none; max-width: 260px; }
+  .album-info{
+    min-width: 60vw;
+  }
 
   .bio-intro { flex-direction: column; }
   .bio-intro-img { flex: none; max-width: 280px; align-self: center; }
@@ -1487,9 +1490,10 @@ media queries
   /* Hero index */
   .hero { flex-direction: column; min-height: auto; }
   .hero-image-side {
-    flex: none; width: 100%;
-    height: 64vw; min-height: 240px;
-    order: -1; padding: 0;
+    display: none;
+    width: 100%;
+    order: -1; 
+    padding: 0;
   }
   .hero-image-side::before { display: none; }
   .hero-image-side img { max-width: 100%; transform: none; border: none; box-shadow: none; }
